@@ -1,0 +1,21 @@
+@charset "utf-8";
+$fontFamily: 'Nanum Gothic', sans-serif;
+
+body, html{ font-size: 10px;}
+
+.divPrintArea{
+    h1{
+        font:{
+            size: 3rem;
+            family: $fontFamily;
+        }
+        margin: 0;
+    }
+    ul{
+        font:{
+            size: 2rem;
+            family: $fontFamily;
+        }
+        margin: 1rem 0 1rem 0;
+    }
+}
